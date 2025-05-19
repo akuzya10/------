@@ -1,0 +1,12 @@
+$layout-breakpoint-small: 460px;
+.conateiner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+  .conateiner {
+    max-width: 1280px;
+    margin: 0 10px;
+  }
+}

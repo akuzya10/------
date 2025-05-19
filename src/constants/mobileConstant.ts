@@ -1,0 +1,1 @@
+export const IS_MOBILE = document.body.clientWidth < 460;

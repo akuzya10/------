@@ -1,0 +1,109 @@
+$layout-breakpoint-small: 460px;
+.card {
+  width: 400px;
+  height: 100%;
+  background-color: #48481e;
+  color: white;
+  border-radius: 40px;
+}
+.card-slider {
+  margin-bottom: 40px;
+}
+.card-title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-align: center;
+  padding: 15px 0px 25px 0px;
+}
+.card-numberSeats {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 0px 15px 20px;
+}
+.card-tarif {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0px 0px 15px 20px;
+}
+.card-description {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 0px 15px 20px;
+}
+.card-button {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 10px 80px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-align: center;
+}
+.card-button-wrapeer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+  .card {
+    width: 90%;
+    height: 100%;
+    background-color: #48481e;
+    color: white;
+    border-radius: 40px;
+    position: relative;
+  }
+
+  .card-button {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+  .card-description {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 0px 15px 20px;
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+  }
+  .card-numberSeats {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 15px 20px;
+  }
+  .card-tarif {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 0px 15px 20px;
+  }
+
+  .card-list {
+    position: absolute;
+    top: 40%;
+    right: -30px;
+    rotate: -3deg;
+  }
+
+  .card-list-too {
+    position: absolute;
+    top: 53%;
+    right: -35px;
+  }
+}

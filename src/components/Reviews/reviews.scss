@@ -1,0 +1,89 @@
+$layout-breakpoint-small: 460px;
+.gallery-review {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.gallery-review-img {
+  height: 700px;
+  position: relative;
+  z-index: 2;
+  opacity: 0.4;
+}
+.gallery-review-img-tint {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 99%;
+  background-color: black;
+}
+
+.gallery-review-text {
+  text-align: center;
+  width: 65%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  position: absolute;
+  z-index: 55;
+  color: rgb(255, 255, 255);
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gallery-review-button {
+  font-size: 24px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  padding: 20px 30px;
+  bottom: 50px;
+  z-index: 55;
+  left: 50%;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+  .gallery-review {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .gallery-review-img {
+    height: 300px;
+    position: relative;
+    z-index: 2;
+    opacity: 0.4;
+  }
+
+  .gallery-review-text {
+    width: 65%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    z-index: 55;
+    color: rgb(255, 255, 255);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .gallery-review-button {
+    font-size: 14px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 10px 15px;
+    bottom: -10px;
+    z-index: 55;
+    left: 50%;
+    background-color: transparent;
+    color: white;
+  }
+}

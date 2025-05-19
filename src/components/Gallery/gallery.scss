@@ -1,0 +1,31 @@
+$layout-breakpoint-small: 460px;
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+.gallery-img {
+  width: 100%;
+  max-height: 700px;
+}
+.gallery-wrapper {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.gallery-wrapper-arrow {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+@media (max-width: $layout-breakpoint-small) {
+  .gallery {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
