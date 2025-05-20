@@ -5,7 +5,6 @@ import PageTitle from "./components/PageTitle/PageTitle";
 import CardItem, { PropsCardItem } from "./components/CardItem/CardItem";
 import Container from "./components/Container/Container";
 import { cards } from "./data/cardsData";
-import React from "react";
 import Stock from "./components/Stock/Stock";
 import { Reviews } from "./components/Reviews/Reviews";
 import { Footer } from "./components/Footer/Footer";
@@ -44,15 +43,12 @@ function App() {
               tarif={cardItem.tarif}
               price={cardItem.price}
               description={cardItem.description}
+              variant={cardItem.variant}
             />
           ))}
         </div>
       </Container>
-      <PageTitle
-        title="Акции"
-        subtitle="Помогаем вам сэкономить"
-        id="stock"
-      />
+      <PageTitle title="Акции" subtitle="Помогаем вам сэкономить" id="stock" />
       <Stock />
 
       <PageTitle
