@@ -107,20 +107,6 @@ const Header = () => {
                 </a>
               </nav>
             </div>
-            <div>
-              <YMaps>
-                <Map
-                  width="100%"
-                  height={400}
-                  defaultState={{
-                    center: [56.776215, 53.16275],
-                    zoom: 16,
-                  }}
-                >
-                  <Placemark defaultGeometry={[56.776215, 53.16275]} />
-                </Map>
-              </YMaps>
-            </div>
           </div>
         </div>
       )}

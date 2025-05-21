@@ -53,7 +53,7 @@ function App() {
 
       <PageTitle
         title="Отзывы"
-        subtitle="Узнайте мнение других и напишите своё"
+        subtitle="Узнайте мнение других"
         id="reviews"
       />
       <Reviews />

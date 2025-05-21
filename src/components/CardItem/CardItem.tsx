@@ -27,7 +27,7 @@ const CardItem = ({
   variant,
 }: PropsCardItem) => {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     fade: true,
     speed: 400,
@@ -60,7 +60,7 @@ const CardItem = ({
       <div className="card-slider">
         <Slider {...settings}>
           {gallery().map((itemImg) => (
-            <div>
+            <div style={{ outline: 'none' }}>
               <img src={itemImg} alt="" className="gallery-img" />
             </div>
           ))}

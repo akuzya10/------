@@ -31,8 +31,8 @@ $layout-breakpoint-small: 460px;
 
 .header-wrapper_nav-mobile {
   display: flex;
-  align-items: center;
-  gap: 30px;
+  align-items: baseline;
+  gap: 20px;
 }
 .header-phone {
   font-size: 28px;
