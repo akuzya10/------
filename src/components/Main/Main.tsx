@@ -51,7 +51,7 @@ const Main = () => {
                   <List width={158} height={110} />
                 </div>
                 <div className="main-content_blok-phone-wrapper">
-                  <a href="tel:+" className="main-content_blok-phone">
+                  <a href="tel:+516175" className="main-content_blok-phone">
                     Позвонить
                   </a>
                 </div>
@@ -61,7 +61,7 @@ const Main = () => {
 
           <div className="main-content_blok-small">
             <h2 className="main-content_blok-small-title">
-              Правильные бани - это те в которых которых предоставлены все
+              Правильные бани - это те в которых предоставлены все
               условия для отличного отдыха и время проведённого без забот.
             </h2>
           </div>

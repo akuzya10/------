@@ -25,7 +25,7 @@ $layout-breakpoint-small: 460px;
   padding: 10px 20px;
 }
 .main-content_blok-title {
-  font-size: 76px;
+  font-size: 72px;
   font-weight: 600;
   line-height: 110px;
   letter-spacing: 25px;
@@ -74,7 +74,7 @@ $layout-breakpoint-small: 460px;
 
 @media (max-width: $layout-breakpoint-small) {
   .main-content_blok-title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 7px;
@@ -133,8 +133,9 @@ $layout-breakpoint-small: 460px;
 
   .main-content_blok-small-title {
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
+    line-height: 16px;
   }
 
   .main-content_blok-list {
