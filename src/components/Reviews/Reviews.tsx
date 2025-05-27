@@ -30,27 +30,19 @@ export const Reviews = () => {
     <div
       style={{
         width: IS_MOBILE ? "360px" : "560px",
-        height: IS_MOBILE ? "600px" : "700px",
-        overflow: "hidden",
-        position: "absolute",
+        height: IS_MOBILE ? "550px" : "700px",
+        overflow: "scroll",
+        position: "relative",
         zIndex: "999",
         top: "50%",
         left: "50%",
         transform: "translate(-50%, -50%)",
       }}
     >
-      <div
-        onClick={() => {
-          setOpenReviews(false);
-        }}
-        style={{ textAlign: "end", color: "white", fontSize: "24px" }}
-      >
-        X
-      </div>
       <iframe
         style={{
           width: "100%",
-          height: "100%",
+          height: "1600px",
           border: "1px solid #e6e6e6",
           borderRadius: "8px",
           boxSizing: "border-box",
@@ -95,12 +87,27 @@ export const Reviews = () => {
             width: "100%",
             height: "100vh",
             backgroundColor: "rgba(0, 0, 0, 0.8)",
-            zIndex: 1313
+            zIndex: 1313,
           }}
           onClick={() => {
             setOpenReviews(false);
           }}
         >
+          <div
+            onClick={() => {
+              setOpenReviews(false);
+            }}
+            style={{
+              textAlign: "end",
+              color: "white",
+              fontSize: "24px",
+              position: "absolute",
+              right: "10px",
+              top: "20px",
+            }}
+          >
+            X
+          </div>
           {badge}
         </div>
       )}
