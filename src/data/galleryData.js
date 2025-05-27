@@ -11,15 +11,15 @@ import image10 from "../assets/Gallery/basik.jpg";
 import image11 from "../assets/Gallery/pechka.jpg";
 
 export const galleryData = [
-  image,
-  image2,
   image3,
+  image,
+  image8,
+  image6,
   image4,
   image5,
-  image6,
-  image7,
-  image8,
   image9,
   image10,
+  image2,
   image11,
+  image7,
 ];

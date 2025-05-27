@@ -9,7 +9,7 @@ export const cards = [
     variant: "barskiy",
   },
   {
-    title: "НОМЕР (БАРОНЧИК)",
+    title: "НОМЕР (БАРХАТНЫЙ)",
     numberSeats: "8",
     tarif: "1300/час (без чана)",
     price: "1800/ час (с чаном)",
@@ -18,7 +18,7 @@ export const cards = [
     variant: "baron",
   },
   {
-    title: "НОМЕР (БАРХАТНЫЙ)",
+    title: "НОМЕР (БАРОНЧИК)",
     numberSeats: "6",
     tarif: "1300/час (без чана)",
     price: "",

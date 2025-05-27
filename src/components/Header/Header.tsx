@@ -4,6 +4,9 @@ import Logo from "../Logo/Logo";
 import { IS_MOBILE } from "../../constants/mobileConstant";
 import { YMaps, Placemark, Map } from "react-yandex-maps";
 import { useState } from "react";
+import Cone from "../List/Cone";
+import Oak from "../List/Oak";
+import { List } from "../List/List";
 
 const Header = () => {
   const [isOpenMobileNav, setIsOpenMobileNav] = useState(false);
@@ -13,6 +16,10 @@ const Header = () => {
 
     const section = document.querySelector(idToScroll);
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    setTimeout(() => {
+      setIsOpenMobileNav(false);
+    }, 700);
   };
 
   const burgerMenu = (
@@ -106,6 +113,41 @@ const Header = () => {
                   Контакты
                 </a>
               </nav>
+            </div>
+            <div>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginBottom: "20px",
+                  gap: "20px",
+                  position: "relative",
+                  opacity: "0.6",
+                }}
+              >
+                <h1
+                  style={{
+                    textAlign: "center",
+                    color: "white",
+                  }}
+                >
+                  БаринЪ
+                </h1>
+              </div>
+              <div style={{ position: "absolute", left: "0", bottom: "0" }}>
+                <Cone />
+              </div>
+
+              <div
+                style={{
+                  position: "absolute",
+                  right: "-40px",
+                  bottom: "-10px",
+                }}
+              >
+                <List width={158} height={110} />
+              </div>
             </div>
           </div>
         </div>

@@ -15,13 +15,6 @@ function App() {
       <Main />
 
       <PageTitle
-        title="Галеря"
-        subtitle="Настоящий отдых для души и тела"
-        id="gallery"
-      />
-      <Gallery />
-
-      <PageTitle
         title="Услуги"
         subtitle="Номера на любой вкус и бюджет"
         id="services"
@@ -48,14 +41,18 @@ function App() {
           ))}
         </div>
       </Container>
+
+      <PageTitle
+        title="Галеря"
+        subtitle="Настоящий отдых для души и тела"
+        id="gallery"
+      />
+      <Gallery />
+
       <PageTitle title="Акции" subtitle="Помогаем вам сэкономить" id="stock" />
       <Stock />
 
-      <PageTitle
-        title="Отзывы"
-        subtitle="Узнайте мнение других"
-        id="reviews"
-      />
+      <PageTitle title="Отзывы" subtitle="Узнайте мнение других" id="reviews" />
       <Reviews />
 
       <PageTitle

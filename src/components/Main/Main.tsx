@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import mainImage from "../../assets/IMG_1260.jpg";
 import "./main.scss";
 import Header from "../Header/Header";
@@ -8,6 +8,8 @@ import { IS_MOBILE } from "../../constants/mobileConstant";
 import { List } from "../List/List";
 
 const Main = () => {
+  const [isOpenMobileNav, setIsOpenMobileNav] = useState(false);
+
   return (
     <>
       {IS_MOBILE ? (
@@ -52,7 +54,7 @@ const Main = () => {
                     <List width={158} height={110} />
                   </div>
                   <div className="main-content_blok-phone-wrapper">
-                    <a href="tel:+516175" className="main-content_blok-phone">
+                    <a href="tel:+576175" className="main-content_blok-phone">
                       Позвонить
                     </a>
                   </div>
