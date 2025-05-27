@@ -2,10 +2,8 @@ import "./header.scss";
 import Navigation from "../Navigation/Navigation";
 import Logo from "../Logo/Logo";
 import { IS_MOBILE } from "../../constants/mobileConstant";
-import { YMaps, Placemark, Map } from "react-yandex-maps";
 import { useState } from "react";
 import Cone from "../List/Cone";
-import Oak from "../List/Oak";
 import { List } from "../List/List";
 
 const Header = () => {
@@ -78,14 +76,14 @@ const Header = () => {
               <nav className="mobile-nav-wrapper">
                 <a
                   onClick={() => {
-                    onScroll("gallery");
+                    onScroll("services");
                   }}
                 >
                   Главная
                 </a>
                 <a
                   onClick={() => {
-                    onScroll("services");
+                    onScroll("gallery");
                   }}
                 >
                   Галерея
