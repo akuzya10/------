@@ -22,6 +22,12 @@ $layout-breakpoint-small: 460px;
   color: white;
   font-size: 46px;
 }
+
+.header-logo:hover {  
+  opacity: 70%;
+  cursor: pointer; 
+}
+
 .header-wrapper_nav {
   display: flex;
   align-items: center;
