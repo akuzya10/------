@@ -28,7 +28,7 @@ export const Footer = () => {
           <p className="footer-adress">Адрес:</p>
           <p className="footer-adress-city">г.Ижевск деревня пирогово</p>
           <p className="footer-adress-street">ул. Азина 12</p>
-          <a href="tel:+57-61-75" className="footer-tel">
+          <a href="tel:8(3412)576175" className="footer-tel">
             57-61-75
           </a>
           <br />

@@ -43,7 +43,7 @@ function App() {
       </Container>
 
       <PageTitle
-        title="Галеря"
+        title="Галерея"
         subtitle="Настоящий отдых для души и тела"
         id="gallery"
       />

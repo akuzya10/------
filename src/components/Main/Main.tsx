@@ -26,7 +26,7 @@ const Main = () => {
           <div className="main-content_wrapper">
             <div className="main-content_blok">
               <h1 className="main-content_blok-title">
-                ПРАВИЛЬНАЯ {IS_MOBILE && <br />} БАНЯ
+                ПРАВИЛЬНАЯ {IS_MOBILE && <br />} БАНЯ 
               </h1>
               {!IS_MOBILE && (
                 <div className="main-content_blok-subtitle_wrapper">
