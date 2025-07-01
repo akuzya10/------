@@ -48,7 +48,7 @@ const Header = () => {
       )}
       {IS_MOBILE && (
         <div className="header-wrapper_nav-mobile">
-          <a href="tel:+8(3412)576175" className="header-phone">
+          <a href="tel:8(3412)576175" className="header-phone">
             57-61-75
           </a>
           <div
