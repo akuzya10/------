@@ -11,7 +11,7 @@ const Navigation = ({ onScroll }: Props) => {
       <nav className="navigation-wrapper">
         <a
           onClick={() => {
-            onScroll("gallery");
+            onScroll("services");
           }}
           className="navigation-link"
         >
@@ -19,11 +19,11 @@ const Navigation = ({ onScroll }: Props) => {
         </a>
         <a
           onClick={() => {
-            onScroll("services");
+            onScroll("gallery");
           }}
           className="navigation-link"
         >
-          Главная
+          Галерея
         </a>
         <a
           onClick={() => {
@@ -31,7 +31,7 @@ const Navigation = ({ onScroll }: Props) => {
           }}
           className="navigation-link"
         >
-          О нас
+          Акции
         </a>
         <a
           onClick={() => {
@@ -39,7 +39,7 @@ const Navigation = ({ onScroll }: Props) => {
           }}
           className="navigation-link"
         >
-          Контакты
+          Отзывы
         </a>
         <a
           onClick={() => {
@@ -47,7 +47,7 @@ const Navigation = ({ onScroll }: Props) => {
           }}
           className="navigation-link"
         >
-          Отзывы
+          Контакты
         </a>
       </nav>
     </div>
